@@ -1,0 +1,31 @@
+div {
+    /* width: 400px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+@media only screen and (max-width:400px) {
+    div {
+        /* flex-wrap: nowrap; */
+         display: flex;
+        flex-direction: column;
+        /* background-color: red */
+    }
+
+    #pid {
+        flex: 100%;
+    }
+}
+
+.divClass {}
+#jumbo{
+    color:#0099d9 !important;
+}
+#divId {}
+
+#pid {
+    /* width: 200px; */
+    flex: 30%
+}

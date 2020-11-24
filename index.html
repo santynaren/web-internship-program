@@ -1,38 +1,48 @@
 <html>
-    <head>
-        <title>
-            Forms and Table
-        </title>
-        <style>
-.mainForm{
-    background-color: aqua;
-    /* width: 50px; */
-}
-        </style>
-    </head>
-    <body>
-        <div class="mainForm">
-                <form  action="table.html">
-                        <input type="text"name="firstName" placeholder="Enter First Name" required />
-                        <input type="email" name="emailID" placeholder="Enter Your Email" required />
-                        <input type="date" name="dateOfBirth" placeholder="Enter Your DOB" required />
-                        <input type="number" name="age" placeholder="Enter Your age" required />
-                        <input type="time" name="time" placeholder="Enter Your Time" required  />
-                        <input type="tel" name="phoneNumber" placeholder="Enter Your number" required />
-                        <input type="file" name="displayPicture" placeholder="upload display picture"  />
-                        <input type="password" name="password" placeholder="enter your password" required />
-                        <input type="submit"  value="submit"/>
-                        <!-- attributes
-                        input - tag name
-                        type - attribute
-                        placeholder - ''
-                        required - ''
-                        class - ''
-                        id - ''
-                        name - ''
-                        -->
-                    </form>
-        </div>
 
-    </body>
+<head>
+    <title>All about CSS</title>
+    <style>
+        div {
+            color: blue;
+            width: 500px;
+            height: 500px;
+            /* background-color: red; */
+            margin-left:100px;
+            margin-top:100px;
+            margin-right:100px;
+            margin-bottom: 100px;
+            padding:20px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            box-shadow: 2px 2px rgba(0,0,0,0.3);
+            /* background-image: url('https://www.insidesport.co/wp-content/uploads/2020/08/CSK-2020.jpg'); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+
+        }
+
+        .divClass {}
+
+        #divId {}
+
+        #pid {
+            color: rgb(61, 107, 61);
+            position:absolute;
+            top: 150;
+            left: 50;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p id="pid">Here I am Green</p>
+
+    </div>
+    <!-- <p>Here I am Black</p> -->
+</body>
+
 </html>
