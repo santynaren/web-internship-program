@@ -1,3 +1,5 @@
+body {}
+
 div {
     /* width: 400px; */
     display: flex;
@@ -5,21 +7,38 @@ div {
     flex-wrap: wrap;
 
 }
-#main_div{
+.form-control{
+  
+    margin:10px;
+}
+.slider {
+    width: 650px;
+    margin: 0 auto;
+}
+#achivement_banner{
+    border:1px solid #70ff63;
+    border-radius: 8px;
+}
+#main_div {
     margin-top: 10px;
 }
-#show{
-    width:100%;
-    height:200px;
-    background-color: #0099d9;
-    /* padding: 5px; */
-    /* margin:5px; */
-    border:1px solid #000;
+
+#show {
+    padding: 20px;
 }
+
+#education {
+    padding: 40px;
+}
+
+#hero_section {
+    padding: 40px;
+}
+
 @media only screen and (max-width:400px) {
     div {
         /* flex-wrap: nowrap; */
-         display: flex;
+        display: flex;
         flex-direction: column;
         /* background-color: red */
     }
@@ -30,9 +49,11 @@ div {
 }
 
 .divClass {}
-#jumbo{
-    color:#0099d9 !important;
+
+#jumbo {
+    color: #0099d9 !important;
 }
+
 #divId {}
 
 #pid {
