@@ -8,16 +8,17 @@ div {
 
 }
 .form-control{
-  
+
     margin:10px;
 }
-.slider {
-    width: 650px;
-    margin: 0 auto;
-}
+
 #achivement_banner{
     border:1px solid #70ff63;
     border-radius: 8px;
+    padding:10px;
+}
+#map{
+
 }
 #main_div {
     margin-top: 10px;
@@ -34,6 +35,37 @@ div {
 #hero_section {
     padding: 40px;
 }
+#heading1{
+    font-size: 40px;
+}
+#works{
+
+}
+#footer{
+    background-color: #000;
+    color:#fff;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 0;
+    /* padding-top: 70px; */
+
+}
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
+.swiper-slide{
+    display: flex;
+    background-color: #71fa3b;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
 
 @media only screen and (max-width:400px) {
     div {
@@ -42,10 +74,24 @@ div {
         flex-direction: column;
         /* background-color: red */
     }
+    #education{
+        padding:5px;
+    }
+    #main_div{
+        padding:5px;
+    }
 
     #pid {
         flex: 100%;
     }
+    #hero_section {
+        padding: 0px;
+        text-align: justify;
+    }
+    #heading1{
+        font-size: 20px;
+    }
+
 }
 
 .divClass {}
