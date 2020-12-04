@@ -26,3 +26,24 @@ function fireButton (){
    console.log(arr);
 
 }
+
+
+// fill in the blanks
+
+var a = "5";
+
+var b = "10";
+
+if(a>b){
+    console.log(a);
+}
+
+
+// fill in the blanks
+<p id="test">value</p>
+//  in css
+//  i want to style tag black color and size 40px
+
+// in js
+
+// i have to p tag

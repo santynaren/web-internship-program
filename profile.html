@@ -198,35 +198,35 @@
         <div class="row container">
             <div class="col-md-6 col-sm-12">
                 <span id="heading1">Let's Meet</span>
-                <form class="col-md-12">
+                <form class="col-md-12" method="POST" action ="http://192.168.0.133/php-backend/">
                     <div class="row">
 
                         <div class="col">
-                            <input type="text" id="firstName" class="form-control" placeholder="First name">
+                            <input type="text" id="firstName" name="firstName" class="form-control" placeholder="First name">
                         </div>
 
                     </div>
                     <div class="row">
                         <div class="col">
-                            <input type="email" id="emailId" class="form-control" placeholder="Email ID">
+                            <input type="email" id="emailId" name="emailId" class="form-control" placeholder="Email ID">
                         </div>
 
                     </div>
                     <div class="row">
                         <div class="col">
-                            <input type="tel" id="phoneNumber" class="form-control" placeholder="Phone Number">
+                            <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="Phone Number">
                         </div>
 
                     </div>
                     <div class="row">
                         <div class="col">
-                            <textarea class="form-control" id="message" placeholder="Enter your message"></textarea>
+                            <textarea class="form-control" id="message" name="message" placeholder="Enter your message"></textarea>
                         </div>
 
                     </div>
                     <div class="row">
                         <div class="col">
-                            <input onclick="fireButton()" class="btn btn-success form-control" value="submit" />
+                            <input type="submit" class="btn btn-success form-control" value="submit" />
                         </div>
                     </div>
                 </form>
